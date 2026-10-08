@@ -1,4 +1,4 @@
-# `<WindLore>` — Desktop launcher for a classic mobile game
+# `WindLore` — Desktop launcher for a classic mobile game
 
 A dedicated desktop launcher for one specific classic mobile title. Point it at your own, unmodified copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
