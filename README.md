@@ -30,7 +30,7 @@ This is a **single-game runtime, not an emulator**. It is built around the exact
 
 ```bash
 cd <APP>-linux-x64
-./<APP> --game /path/to/your_game_file   # the path is remembered
+./<APP> --jar /path/to/your_game_file   # the path is remembered
 ./<APP>                                  # every run after that
 ./<APP> --install-shortcut               # optional: add an applications-menu entry
 ```
