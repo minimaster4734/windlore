@@ -1,6 +1,6 @@
-# `WindLore` — Desktop launcher for a classic mobile game
+# `WindLore` — Desktop launcher for a classic mobile game series
 
-A dedicated desktop launcher for one specific classic mobile title. Point it at your own, unmodified copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+A dedicated desktop launcher for one specific classic mobile series. Point it at your own, unmodified copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
 This is **not** a general-purpose J2ME emulator. It implements exactly the subset of the mobile API surface that this one game actually uses, which keeps it small, predictable, and fast.
 
