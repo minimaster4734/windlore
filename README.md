@@ -2,7 +2,7 @@
 A runner built **specifically for the Heroes Lore series** (Heroes Lore: Winds of Soltia, Heroes Lore 2: The Knight of Frozen Sea and Heroes Lore: Zero by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
 ![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
-![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
+![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_000.png)
 ![Screenshot 3](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
 
 
