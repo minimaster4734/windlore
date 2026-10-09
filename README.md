@@ -1,9 +1,15 @@
 # `WindLore`
-A runner built **specifically for the Heroes Lore series** (Hands-On Mobile, 320×240 build). Point it at your own, legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+A runner built **specifically for the Heroes Lore series** (Heroes Lore: Winds of Soltia, Heroes Lore 2: The Knight of Frozen Sea and Heroes Lore: Zero by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+
+![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
+![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
+![Screenshot 3](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
+
 
 This is **not** a general-purpose J2ME emulator. It implements exactly the subset of the mobile API surface that this one game actually uses, which keeps it small, predictable, and fast.
 
 The launcher ships **no game code and no game assets**. You supply your own copy of the game.
+
 
 ## Highlights
 
@@ -25,16 +31,27 @@ This is a **single-game runtime, not an emulator**. It is built around the exact
 - A standard desktop Linux environment (X11, or Wayland through the X11 compatibility layer). The usual desktop libraries — windowing and font configuration — are expected to be present.
 - If a required system library is missing, the launcher reports which package to install instead of crashing.
 
-## Quick start
+## Getting started
 
-```bash
-cd <APP>-linux-x64
-./<APP> --jar /path/to/your_game_file   # the path is remembered
-./<APP>                                  # every run after that
-./<APP> --install-shortcut               # optional: add an applications-menu entry
+Unpack the archive and run the binary. A launcher window opens.
+
+    Click Browse… and pick your legall owned copy of the game.
+
+    Optionally open Settings… to adjust screen shape, window or fullscreen mode, scaling, keys, speed and more.
+
+    Press Play.
+
+Your chosen file and your settings are both remembered, so every run after the first can go straight to Play.
+
+```
+bash
+
+tar xzf windlore-linux-x64.tar.gz
+cd windlore-linux-x64
+./windlore
 ```
 
-The archive includes its own runtime, so no system Java is needed.
+The archive carries its own runtime, so no system Java is needed.
 
 ## Running from source
 
@@ -71,8 +88,6 @@ All bindings are configurable in **Settings → Controls**, with two keys assign
 Available settings include window mode, window size, scaling filter, integer zoom, frame-rate display, pause-on-focus-loss, audio and volume controls, speed multiplier, aspect-ratio presets, and save management.
 
 ## Frame rate and game speed
-
-## Frame rate / game speed
 
 The game runs at **14 fps in gameplay** (menus 20 fps, loading 5 fps). That is the game's own design, not a runner limit: its loop does exactly one logic update per frame, which means a higher frame rate produces a *faster* game rather than a smoother one. The launcher treats this as a first-class concept: a speed multiplier scales the game clock across a wide range, while music and sound effects continue to play at normal speed.
 
