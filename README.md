@@ -1,5 +1,4 @@
-# `WindLore` — Desktop launcher for a classic mobile game series
-
+# `WindLore`
 A runner built **specifically for this Heroes Lore: Wind Of Soltia** (Hands-On Mobile, v2.0.5, 320×240 build). Point it at your own, legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
 This is **not** a general-purpose J2ME emulator. It implements exactly the subset of the mobile API surface that this one game actually uses, which keeps it small, predictable, and fast.
