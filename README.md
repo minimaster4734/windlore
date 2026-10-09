@@ -1,6 +1,6 @@
 # `WindLore` — Desktop launcher for a classic mobile game series
 
-A dedicated desktop launcher for one specific classic mobile series. Point it at your own, unmodified copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+A runner built **specifically for this Heroes Lore: Wind Of Soltia** (Hands-On Mobile, v2.0.5, 320×240 build). Point it at your own, legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
 This is **not** a general-purpose J2ME emulator. It implements exactly the subset of the mobile API surface that this one game actually uses, which keeps it small, predictable, and fast.
 
@@ -73,7 +73,9 @@ Available settings include window mode, window size, scaling filter, integer zoo
 
 ## Frame rate and game speed
 
-This title ties its logic directly to the frame loop, which means a higher frame rate produces a *faster* game rather than a smoother one. The launcher treats this as a first-class concept: a speed multiplier scales the game clock across a wide range, while music and sound effects continue to play at normal speed.
+## Frame rate / game speed
+
+The game runs at **14 fps in gameplay** (menus 20 fps, loading 5 fps). That is the game's own design, not a runner limit: its loop does exactly one logic update per frame, which means a higher frame rate produces a *faster* game rather than a smoother one. The launcher treats this as a first-class concept: a speed multiplier scales the game clock across a wide range, while music and sound effects continue to play at normal speed.
 
 ## Data, saves and configuration
 
