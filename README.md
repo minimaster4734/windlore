@@ -3,7 +3,7 @@ A runner built **specifically for the Heroes Lore series** (Heroes Lore: Winds o
 
 ![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
 ![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_000.png)
-![Screenshot 3](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
+![Screenshot 3](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_002.png)
 
 
 This is **not** a general-purpose J2ME emulator. It implements exactly the subset of the mobile API surface that this one game actually uses, which keeps it small, predictable, and fast.
