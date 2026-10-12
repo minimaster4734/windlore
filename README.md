@@ -1,5 +1,5 @@
 # `WindLore`
-A runner built **specifically for the Heroes Lore series** (Heroes Lore: Winds of Soltia, Heroes Lore 2: The Knight of Frozen Sea and Heroes Lore: Zero by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+A decomplilation launcher **specifically for the Heroes Lore series** ('Heroes Lore: Winds of Soltia', 'Heroes Lore 2: The Knight of Frozen Sea' and 'Heroes Lore: Zero' by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
 
 ![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
 ![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_000.png)
@@ -10,17 +10,15 @@ This is **not** a general-purpose J2ME emulator. It implements exactly the subse
 
 The launcher ships **no game code and no game assets**. You supply your own copy of the game.
 
-
 ## Highlights
 
-- **Runs your original game file, unmodified.** No repackaging, no patched files.
-- **Nothing to install.** A self-contained build bundles an unmodified OpenJDK runtime.
-- **Rebindable controls.** Every phone button maps to a desktop key, configurable in settings.
-- **Display options.** Windowed, borderless fullscreen or exclusive fullscreen, integer or fractional zoom, crisp or smooth scaling, optional wider aspect presets.
-- **Adjustable game speed.** A multiplier that scales the game clock without affecting audio playback.
-- **Persistent configuration.** Settings, saves and screenshots live in standard per-user directories.
-- **Optional decompiler helper.** A script that fetches a pinned, checksum-verified decompiler for modding research on your own copy.
-- **Optional desktop integration.** Install or remove an application-menu shortcut from the command line.
+- **Play it on different resolution scales** — widescreen, ultrawide, fullscreen or original.
+- **Gamepad or keyboard**, fully rebindable.
+- **Picture filters** which apply to the original look at any size.
+- **Nothing to install.** A self-contained build, no system Java needed.
+- **A launcher window, not a command line.** Browse, configure, press Play.
+- **Settings apply immediately.** Change something in the launcher and the game that starts right after already uses it.
+
 
 ## Scope
 
