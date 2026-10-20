@@ -1,5 +1,5 @@
 # `WindLore`
-A decomplilation launcher **specifically for the Heroes Lore series** ('Heroes Lore: Winds of Soltia', 'Heroes Lore 2: The Knight of Frozen Sea' and 'Heroes Lore: Zero' by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS — no emulator suite, no Java installation required.
+A decomplilation launcher **specifically for the Heroes Lore series** ('Heroes Lore: Winds of Soltia', 'Heroes Lore 2: The Knight of Frozen Sea' and 'Heroes Lore: Zero' by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS or Android — no emulator suite, no Java installation required.
 
 ![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
 ![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_000.png)
@@ -14,9 +14,10 @@ The launcher ships **no game code and no game assets**. You supply your own copy
 
 - **Play it on different resolution scales** — widescreen, ultrawide, fullscreen or original.
 - **Gamepad or keyboard**, fully rebindable.
+- **turbo mode available** automatically repeats attack input.
 - **Picture filters** which apply to the original look at any size.
 - **Nothing to install.** A self-contained build, no system Java needed.
-- **A launcher window, not a command line.** Browse, configure, press Play.
+- **Mods section** create your own  modifications or install community-made ones.
 - **Settings apply immediately.** Change something in the launcher and the game that starts right after already uses it.
 
 
