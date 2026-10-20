@@ -17,7 +17,7 @@ The launcher ships **no game code and no game assets**. You supply your own copy
 - **turbo mode available** automatically repeats attack input.
 - **Picture filters** which apply to the original look at any size.
 - **Nothing to install.** A self-contained build, no system Java needed.
-- **Mods section** create your own  modifications or install community-made ones.
+- **Mods section** — create your own modifications or install community-made ones.
 - **Settings apply immediately.** Change something in the launcher and the game that starts right after already uses it.
 
 
