@@ -90,11 +90,10 @@ The game runs at **14 fps in gameplay** (menus 20 fps, loading 5 fps). That is t
 - Saves and screenshots: `~/.local/share/<APP>/`
 - Override the base directory for both with the `<APP>_HOME` environment variable.
 
-```
+
 ## Compatibility notes
 - Aspect-ratio presets can reveal more of the game world on wide monitors. Maps narrower than the viewport will show empty space at the sides — this is a property of the game's own map data, not a rendering fault.
 - Command-line overrides are available for one-off runs, including window size, speed, and a headless scripted mode for automated testing and screenshot capture.
-```
 
 ## Legal
 
