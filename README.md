@@ -14,7 +14,7 @@ The launcher ships **no game code and no game assets**. You supply your own copy
 
 - **Play it on different resolution scales** — widescreen, ultrawide, fullscreen or original.
 - **Gamepad or keyboard**, fully rebindable.
-- **turbo mode available** automatically repeats attack input.
+- **Turbo mode available** automatically repeats attack input.
 - **Picture filters** which apply to the original look at any size.
 - **Nothing to install.** A self-contained build, no system Java needed.
 - **Mods section** — create your own modifications or install community-made ones.
