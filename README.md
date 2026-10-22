@@ -12,7 +12,7 @@ The launcher ships **no game code and no game assets**. You supply your own copy
 
 ## Highlights
 
-- **Play it on different resolution scales** — widescreen, ultrawide, fullscreen or original.
+- **Play it on different resolution scales** — ultrawide, widescreen, fullscreen or original.
 - **Gamepad or keyboard**, fully rebindable.
 - **Turbo mode available** automatically repeats attack input.
 - **Picture filters** which apply to the original look at any size.
