@@ -34,7 +34,7 @@ This is a **decompilation tailored for this series of games only, not an emulato
 - Android 5.0 and up, multiple architecture support (armv7l, arm64, x86, x86_64)
 
 **Windows:**
--Supports both x86 and x64 systems. Windows 10 or newer.
+- Supports both x86 and x64 systems. Windows 10 or newer.
 
 ## Getting started
 
