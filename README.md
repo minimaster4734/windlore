@@ -1,5 +1,5 @@
 # `WindLore`
-A decomplilation launcher **specifically for the Heroes Lore series** ('Heroes Lore: Winds of Soltia', 'Heroes Lore 2: The Knight of Frozen Sea' and 'Heroes Lore: Zero' by Hands-On Mobile, 320×240 build). Point it at your legally owned copy of the game and it runs natively on a desktop OS or Android — no emulator suite, no Java installation required.
+A decompilation launcher **specifically for the Heroes Lore series** ('Heroes Lore: Wind of Soltia', 'Heroes Lore 2: The Knight of Frozen Sea' and 'Heroes Lore: Zero' by Hands-On Mobile, versions 2.0.5, 1.0.2, and 4.4.47 respectfully, 320×240). Point it at your legally owned copy of the game and it runs natively on a desktop OS or Android — no emulator suite, no Java installation required.
 
 ![Screenshot 1](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_001.png)
 ![Screenshot 2](https://github.com/minimaster4734/windlore/blob/main/assets/screenshot_000.png)
@@ -22,11 +22,11 @@ The launcher ships **no game code and no game assets**. You supply your own copy
 
 ## Scope
 
-This is a **single-game runtime, not an emulator**. It is built around the exact API calls this one title makes. Other JARs are not supported and the launcher will refuse them rather than fail silently.
+This is a **decompilation tailored for this series of games only, not an emulator**. It is built around the exact API calls this one series makes. Other JARs are not supported and the launcher will refuse them rather than fail silently.
 
 ## Requirements
 
-**Linux:**
+**Linux x86_64:**
 - A standard desktop Linux environment (X11, or Wayland through the X11 compatibility layer). The usual desktop libraries — windowing and font configuration — are expected to be present.
 - If a required system library is missing, the launcher reports which package to install instead of crashing.
 
@@ -37,14 +37,6 @@ This is a **single-game runtime, not an emulator**. It is built around the exact
 
 Unpack the archive and run the binary. A launcher window opens.
 
-    Click Browse… and pick your legally owned copy of the game.
-
-    Optionally open Settings… to adjust screen shape, window or fullscreen mode, scaling, keys, speed and more.
-
-    Press Play.
-
-Your chosen file and your settings are both remembered, so every run after the first can go straight to Play.
-
 ```
 bash
 
@@ -53,7 +45,15 @@ cd windlore-linux-x64
 ./windlore
 ```
 
-The archive carries its own runtime, so no system Java is needed.
+The archive carries its own runtime, so no system Java is needed. 
+
+    Click Browse… and pick your legally owned copy of the game.
+
+    Optionally open Settings… to adjust screen shape, window or fullscreen mode, scaling, keys, speed and more.
+
+    Press Play.
+
+The first time you add a game it is decompiled, repaired, rebuilt and stored in your library (about a minute on desktop, a few minutes on Android). After that the original file isn’t needed, there is no fallback to the original, and “Remove from library” deletes only the rebuilt copy.
 
 ## Default controls
 
@@ -85,9 +85,9 @@ The game runs at **14 fps in gameplay** (menus 20 fps, loading 5 fps). That is t
 
 ## Data, saves and configuration
 
-- Settings: `~/.config/<APP>/settings.properties` (plain text)
-- Saves and screenshots: `~/.local/share/<APP>/`
-- Override the base directory for both with the `<APP>_HOME` environment variable.
+On Linux, they are saved inside ~/.config/windlore/settings.properties, ~/.local/share/windlore/ and WINDLORE_HOME
+On Windows, they are inside %APPDATA%\WindLore. 
+On Android, saves and settings stay in the app, with export and import inside it.
 
 
 ## Compatibility notes
@@ -96,8 +96,13 @@ The game runs at **14 fps in gameplay** (menus 20 fps, loading 5 fps). That is t
 
 ## Legal
 
-The launcher's own source contains **no code and no assets from the game**. Third-party components are used unmodified and are documented in `THIRD-PARTY.md`, including their licences and verification hashes. You are responsible for supplying your own legally obtained copy of the game.
+The launcher's own source contains **no code and no assets from the game**. Third-party components are used unmodified and are documented in `THIRD-PARTY.md`, including their licences and verification hashes. You are responsible for supplying your own legally obtained copy of the game. The project is unofficial and unaffiliated with Hands-On Mobile, with the game names used only to identify compatible files.
 
 ## Status
 
-Developed and verified primarily on Linux. The runtime is written in portable Java, so other desktop platforms are expected to work with an appropriate bundled runtime and launch script, but have not yet been validated.
+Developed and verified primarily on Linux, other platforms have had limited testing. The runtime is written in portable Java, so other platforms are expected to work with an appropriate bundled runtime and a launch script.
+
+## Known limitations.
+
+- Online features are not available.
+- Game 3’s in-game purchase fails like a phone with no signal.
